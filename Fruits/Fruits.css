@@ -25,7 +25,7 @@
     border: none;
 }
 
-.nav > td button.general {
+.nav > td  button.general {
     width: 100%;
     padding: 10px;
     margin: 0;
@@ -49,7 +49,7 @@
     font-weight: bold;
 }
 
-.nav > td button:hover {
+.nav > td  button:hover {
     background-color: rgb(21, 111, 199);
 }
 
@@ -98,6 +98,7 @@
 ul {
     line-height: 40px;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 li > span {
