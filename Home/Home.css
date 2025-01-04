@@ -95,6 +95,62 @@
     text-transform: uppercase;
 }
 
+.cards {
+    text-align: center;
+    
+}
+
+.card {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 10px;
+    margin: 10px;
+    width: 250px;
+    height: 420px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.cardcontent{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    font-size: 100%;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.cardcontent h1 {
+    font-size: 90%;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.original {
+    text-decoration: line-through;
+}
+
+.discount {
+    text-decoration: underline;
+}
+
+.cardbutton {
+    background-color: rgb(11, 56, 102);
+    color: white;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.cardbutton:hover {
+    background-color: rgb(21, 111, 199);
+}
+
 ul {
     line-height: 40px;
     font-weight: bold;
